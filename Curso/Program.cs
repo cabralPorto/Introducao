@@ -59,7 +59,7 @@ namespace CursoEFCore
             };
             using var db = new Data.ApplicationContext();
            // db.AddRange(produto, cliente);
-          // db.Clientes.AddRange(listaClientes);
+              db.Clientes.AddRange(listaClientes);
              
             var registros = db.SaveChanges();
              Console.WriteLine($"Total Registros (S): {registros}");
