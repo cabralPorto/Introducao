@@ -1,4 +1,4 @@
-# Entity FrameworkCore / Introduction
+# Entity FrameworkCore
 
 ### SqlServer:
 
